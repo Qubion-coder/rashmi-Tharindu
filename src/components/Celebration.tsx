@@ -68,10 +68,10 @@ export const Celebration: React.FC = () => {
             <h3 className="font-display text-2xl sm:text-3xl font-light italic mb-2" style={{ color: "#E8C547" }}>The Celebration</h3>
             <div className="h-px w-10 mx-auto mb-5" style={{ background: "linear-gradient(90deg, transparent, #D4AF3788, transparent)" }} />
             <div className="space-y-2.5 text-sm font-light leading-relaxed font-sans" style={{ color: "rgba(255,255,255,0.7)" }}>
-              <p>Thursday, 26th of November 2026</p>
-              <p>9.30 am to 4.00 pm</p>
-              <p>Rimakvin River Edge Resort & Banquet</p>
-              <p className="text-xs opacity-80">(Grand ballroom)</p>
+              <p>2026 නොවැම්බර් 19 බ්රහස්පතින්දා</p>
+              <p>පෙ.ව 10.00 - ප.ව 4.00</p>
+              <p>සීතා උත්සව ශාලාව</p>
+              <p className="text-xs opacity-80">පිළිමතලාව</p>
             </div>
           </motion.div>
         </div>

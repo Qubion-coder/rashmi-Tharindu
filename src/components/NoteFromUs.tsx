@@ -52,12 +52,8 @@ export const NoteFromUs: React.FC = () => {
               <span className="font-display font-light" style={{ fontSize: "clamp(4rem, 14vw, 7rem)", color: "#B8942A", opacity: 0.7, lineHeight: 1 }}>“</span>
             </div>
             <p className="font-display font-light italic leading-[1.4] px-2" style={{ fontSize: "clamp(1.5rem, 4vw, 2.4rem)", color: "rgba(255, 252, 245, 0.88)", marginTop: "-1rem" }}>
-              With hearts full of love, we, along with our parents
-              <span className="block mt-4 mb-4 text-[#B8942A]" style={{ fontSize: "clamp(1.2rem, 3vw, 1.8rem)" }}>
-                Mr &amp; Mrs Perera<br />
-                Mr &amp; Mrs Silva
-              </span>
-              joyfully invite you to witness the beginning of our greatest adventure. Your love, guidance, and support have shaped the people we are today, and we can imagine no greater blessing than having you by our side as we exchange our vows and unite our lives. <br/><br/><span className="text-[#B8942A] text-lg sm:text-xl">“Let all that you do be done in love.” – 1 Corinthians 16:14</span><br/><br/>We cannot wait to celebrate this magical chapter with you! ✨
+              සමඟ අතිනත ගැනීමේ ප්රීතිය නිමිත්තෙන් පැවැත්වෙන ප්රිය සම්භාෂණයට සහභාගී වන මෙන්<br/><br/>
+              ඔබට / ඔබ දෙපළට / ඔබ සැමට කෙරෙන සුභද ඇරයුුමයි.
             </p>
             <div className="mt-8 sm:mt-10">
               <div className="flex items-center justify-center gap-3 mb-5" aria-hidden="true">
@@ -68,7 +64,7 @@ export const NoteFromUs: React.FC = () => {
                 <div className="h-px w-12 sm:w-16" style={{ background: "linear-gradient(270deg, transparent, #D4AF37cc)" }} />
               </div>
               <p className="font-serif text-2xl sm:text-3xl" style={{ color: "#B8942A" }}>
-                Dinelka &amp; Prabashi
+                තරිඳු හා රශ්මි
               </p>
             </div>
           </motion.div>

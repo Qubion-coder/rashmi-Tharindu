@@ -44,8 +44,8 @@ export const HeroContent: React.FC = () => {
           initial="hidden"
           animate="visible"
         >
-          <motion.p variants={itemVariants} className="text-[#2C1810] font-serif tracking-[0.2em] uppercase text-[10px] sm:text-[12px] mb-3 font-semibold" style={{ textShadow: "0 0 10px rgba(255,255,255,0.8)" }}>
-            The Celebration of Love
+          <motion.p variants={itemVariants} className="text-[#2C1810] font-serif tracking-[0.2em] uppercase text-[15px] sm:text-[18px] mb-3 font-semibold" style={{ textShadow: "0 0 10px rgba(255,255,255,0.8)" }}>
+            ශ්‍රී සුභ මංගලම්
           </motion.p>
           
           <motion.div variants={itemVariants} className="flex items-center gap-2 w-32 mx-auto">
@@ -63,24 +63,24 @@ export const HeroContent: React.FC = () => {
           animate="visible"
         >
           <motion.h1 variants={itemVariants}
-            className="text-[#1a1005] font-medium leading-none mb-2"
-            style={{ fontFamily: "'Great Vibes', cursive", fontSize: "clamp(3.5rem, 12vw, 6rem)", textShadow: "0 0 20px rgba(255,255,255,0.7), 0 0 10px rgba(255,255,255,0.7)" }}
+            className="text-[#1a1005] font-display font-medium leading-none mb-2"
+            style={{ fontSize: "clamp(3.5rem, 12vw, 6rem)", textShadow: "0 0 20px rgba(255,255,255,0.7), 0 0 10px rgba(255,255,255,0.7)" }}
           >
-            Harshani
+            රශ්මි
           </motion.h1>
           
           <motion.span variants={itemVariants}
-            className="text-[#2C1810] text-3xl sm:text-4xl my-2"
-            style={{ fontFamily: "'Great Vibes', cursive", textShadow: "0 0 15px rgba(255,255,255,0.7)" }}
+            className="text-[#2C1810] font-display text-3xl sm:text-4xl my-2"
+            style={{ textShadow: "0 0 15px rgba(255,255,255,0.7)" }}
           >
-            &
+            හා
           </motion.span>
           
           <motion.h1 variants={itemVariants}
-            className="text-[#1a1005] font-medium leading-none mt-2"
-            style={{ fontFamily: "'Great Vibes', cursive", fontSize: "clamp(3.5rem, 12vw, 6rem)", textShadow: "0 0 20px rgba(255,255,255,0.7), 0 0 10px rgba(255,255,255,0.7)" }}
+            className="text-[#1a1005] font-display font-medium leading-none mt-2"
+            style={{ fontSize: "clamp(3.5rem, 12vw, 6rem)", textShadow: "0 0 20px rgba(255,255,255,0.7), 0 0 10px rgba(255,255,255,0.7)" }}
           >
-            Madhawa
+            තරිඳු
           </motion.h1>
         </motion.div>
 
@@ -91,8 +91,8 @@ export const HeroContent: React.FC = () => {
           initial="hidden"
           animate="visible"
         >
-          <motion.div variants={itemVariants} className="text-[#1a1005] font-serif text-[15px] sm:text-xl tracking-[0.4em] font-bold border-t-2 border-[#2C1810]/50 pt-4 px-8" style={{ textShadow: "0 0 10px rgba(255,255,255,0.8)" }}>
-            26 . 11 . 2026
+          <motion.div variants={itemVariants} className="text-[#1a1005] font-serif text-[15px] sm:text-xl tracking-[0.2em] font-bold border-t-2 border-[#2C1810]/50 pt-4 px-8" style={{ textShadow: "0 0 10px rgba(255,255,255,0.8)" }}>
+            2026 නොවැම්බර් 19 බ්‍රහස්පතින්දා
           </motion.div>
         </motion.div>
 

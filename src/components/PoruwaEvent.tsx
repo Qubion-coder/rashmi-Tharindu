@@ -39,8 +39,8 @@ export const PoruwaEvent: React.FC = () => {
                     <Calendar className="w-5 h-5 text-poruwa-primary" />
                   </div>
                   <div>
-                    <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-1 group-hover:text-poruwa-primary transition-colors duration-500">Thursday, 26th November</h4>
-                    <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Rimakvin River Edge Resort & Banquet, Ambalangoda</p>
+                    <h4 className="font-serif text-2xl sm:text-3xl text-stone-800 mb-1 group-hover:text-poruwa-primary transition-colors duration-500">2026 නොවැම්බර් 19 බ්රහස්පතින්දා</h4>
+                    <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">සීතා උත්සව ශාලාව පිළිමතලාව</p>
                   </div>
                 </div>
 
@@ -50,8 +50,8 @@ export const PoruwaEvent: React.FC = () => {
                     <Heart className="w-5 h-5 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-serif text-xl sm:text-2xl text-stone-800 mb-1 group-hover:text-poruwa-primary transition-colors duration-500">09:30 AM</h4>
-                    <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Welcome & Gathering</p>
+                    <h4 className="font-serif text-xl sm:text-2xl text-stone-800 mb-1 group-hover:text-poruwa-primary transition-colors duration-500">පෙ.ව 10.00</h4>
+                    <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">පිළිගැනීම</p>
                   </div>
                 </div>
 
@@ -60,8 +60,8 @@ export const PoruwaEvent: React.FC = () => {
                     <Clock className="w-5 h-5 text-poruwa-light" />
                   </div>
                   <div>
-                    <h4 className="font-serif text-xl sm:text-2xl text-stone-800 mb-1 group-hover:text-poruwa-primary transition-colors duration-500">10:07 AM</h4>
-                    <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Poruwa Ceremony</p>
+                    <h4 className="font-serif text-xl sm:text-2xl text-stone-800 mb-1 group-hover:text-poruwa-primary transition-colors duration-500">පෙ.ව 10.20</h4>
+                    <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">පෝරුවේ චාරු (10.20 - 11.00 දක්වා)</p>
                   </div>
                 </div>
 
@@ -70,8 +70,8 @@ export const PoruwaEvent: React.FC = () => {
                     <Clock className="w-5 h-5 text-poruwa-light" />
                   </div>
                   <div>
-                    <h4 className="font-serif text-xl sm:text-2xl text-stone-800 mb-1 group-hover:text-poruwa-primary transition-colors duration-500">12:30 PM</h4>
-                    <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Lunch & Reception</p>
+                    <h4 className="font-serif text-xl sm:text-2xl text-stone-800 mb-1 group-hover:text-poruwa-primary transition-colors duration-500">මධ්‍යාහ්න 12.30</h4>
+                    <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">දිවා භෝජනය</p>
                   </div>
                 </div>
 
@@ -80,8 +80,8 @@ export const PoruwaEvent: React.FC = () => {
                     <Clock className="w-5 h-5 text-poruwa-light" />
                   </div>
                   <div>
-                    <h4 className="font-serif text-xl sm:text-2xl text-stone-800 mb-1 group-hover:text-poruwa-primary transition-colors duration-500">04:00 PM</h4>
-                    <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">Celebration Concludes</p>
+                    <h4 className="font-serif text-xl sm:text-2xl text-stone-800 mb-1 group-hover:text-poruwa-primary transition-colors duration-500">ප.ව 4.00</h4>
+                    <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-[0.2em] font-bold">උත්සවය අවසන් වීම</p>
                   </div>
                 </div>
 

@@ -10,6 +10,7 @@ import { SacredUnion } from '../components/SacredUnion';
 import { Countdown } from '../components/Countdown';
 import { GuestGreeting } from '../components/GuestGreeting';
 import { Rsvp } from '../components/Rsvp';
+import { Location } from '../components/Location';
 
 export const Home: React.FC = () => {
   const [showIntro, setShowIntro] = useState(true);
@@ -83,6 +84,7 @@ export const Home: React.FC = () => {
 
             <CoupleDetails />
             <SacredUnion />
+            <Location />
             <Rsvp />
 
             <Footer />

@@ -3,14 +3,24 @@ import { motion } from 'motion/react';
 import { MapPin, Navigation, Compass, Map } from 'lucide-react';
 
 export const Location: React.FC = () => {
-   const venueAddress = "Rimakvin River Edge Resort & Banquet, Ambalangoda";
-  const mapUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.8443924765634!2d79.9168925!3d6.9056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2597405e3e60d%3A0xc07a81080344d183!2sWaters%20Edge!5e0!3m2!1sen!2slk!4v1714736345678!5m2!1sen!2slk`;
-  const liveLocationUrl = "https://maps.app.goo.gl/uXpD3Bf4s4FmS8yJ6";
+  const venueAddress = "Rimakvin River Edge Resort & Banquet";
+  const mapUrl = `https://maps.google.com/maps?q=Rimakvin%20River%20Edge%20Resort%20%26%20Banquet&t=&z=15&ie=UTF8&iwloc=&output=embed`;
+  const liveLocationUrl = "https://maps.app.goo.gl/arrtWn3Gez3KGyFe6";
 
   return (
-    <div className="max-w-[85rem] mx-auto px-6 relative py-12">
-      {/* Decorative Glows */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-radial from-brand-primary/20 to-transparent blur-3xl pointer-events-none -z-10" />
+    <section className="relative w-full overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <img 
+          src="/ChatGPT Image Aug 11, 2026, 01_19_32 AM.webp" 
+          alt="Location Background"
+          className="w-full h-full object-cover object-center opacity-100" 
+        />
+      </div>
+
+      <div className="max-w-[85rem] mx-auto px-6 relative z-10 py-12 lg:py-24">
+        {/* Decorative Glows */}
+        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-radial from-brand-primary/20 to-transparent blur-3xl pointer-events-none -z-10" />
 
       <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 mt-10">
 
@@ -28,6 +38,13 @@ export const Location: React.FC = () => {
             <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-brand-primary-muted via-brand-primary to-brand-primary-deep" />
 
             <div className="mb-10 relative z-10">
+              <div className="w-full h-40 sm:h-48 mb-8 rounded-2xl overflow-hidden border-2 border-brand-primary-light/20 shadow-lg">
+                <img 
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFaylSWJDWUgESLrQxHUIfvUKuYOKVvUcG1cDSXrWCGbjcEGKJN5Bv_h0X&s=10" 
+                  alt="Rimakvin River Edge Resort & Banquet" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <div className="inline-flex items-center gap-4 mb-6">
                 <span className="text-brand-primary-light uppercase tracking-[0.5em] text-[10px] sm:text-[11px] font-bold drop-shadow-sm">
                   The Venue
@@ -45,11 +62,10 @@ export const Location: React.FC = () => {
                   <MapPin className="text-brand-primary-light w-5 h-5" />
                 </div>
                 <div>
-                  <p className="text-2xl font-serif text-white mb-1">Rimakvin River Edge Resort & Banquet</p>
-                  <p className="text-[11px] uppercase tracking-[0.2em] font-medium text-blue-100/60 leading-relaxed mb-6">Ambalangoda, Sri Lanka</p>
+                  <p className="text-xl sm:text-2xl font-serif text-white mb-2 leading-tight">Rimakvin River Edge<br />Resort & Banquet</p>
 
                   <p className="text-blue-100/80 italic font-serif text-lg leading-relaxed max-w-sm mb-10 pl-4 border-l-[1.5px] border-brand-primary-light/40">
-                    "A serene and elegant setting where we will begin our new chapter together."
+                    "අපගේ නව ජීවිතය අරඹන සොඳුරු ස්ථානය"
                   </p>
 
                   <a
@@ -59,7 +75,7 @@ export const Location: React.FC = () => {
                     className="inline-flex items-center gap-3 bg-white text-blue-900 px-8 py-4 rounded-full font-sans tracking-[0.2em] text-xs uppercase hover:bg-blue-50 hover:shadow-[0_10px_20px_rgba(0,0,0,0.4)] transition-all duration-300 active:scale-95 group/btn"
                   >
                     <Navigation className="w-4 h-4 text-brand-primary group-hover/btn:rotate-45 transition-transform duration-300" />
-                    Open Live Location
+                    View Location
                   </a>
                 </div>
               </div>
@@ -105,6 +121,7 @@ export const Location: React.FC = () => {
         </motion.div>
 
       </div>
-    </div>
+      </div>
+    </section>
   );
 };
