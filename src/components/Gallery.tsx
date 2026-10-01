@@ -55,7 +55,7 @@ export const Gallery: React.FC = () => {
   return (
     <section id="gallery" aria-label="Our Gallery" className="relative overflow-hidden py-24 sm:py-36 px-4 sm:px-8 bg-[#0a0a0a] text-[#FAFAF8]">
       <div className="pointer-events-none absolute inset-0 opacity-100" style={{ background: "radial-gradient(ellipse 75% 58% at 18% 28%, rgba(212,175,55,0.08) 0%, transparent 52%), radial-gradient(ellipse 50% 48% at 90% 72%, rgba(212,175,55,0.05) 0%, transparent 50%)" }} />
-      <div className="pointer-events-none absolute -left-1/4 top-0 h-[min(60vw,480px)] w-[min(60vw,480px)] rounded-full blur-[120px] opacity-20 bg-[#D4AF37]" />
+      <div className="pointer-events-none absolute -left-1/4 top-0 h-[min(60vw,480px)] w-[min(60vw,480px)] rounded-full blur-[120px] opacity-20 bg-[#d28b3d]" />
       
       <div className="relative mx-auto max-w-7xl">
         <motion.div 
@@ -65,10 +65,10 @@ export const Gallery: React.FC = () => {
           viewport={{ once: true }}
           transition={{ duration: 1, ease: "easeOut" }}
         >
-          <p className="font-serif text-xl sm:text-2xl mb-4 italic tracking-widest text-[#D4AF37]/90">
+          <p className="font-serif text-xl sm:text-2xl mb-4 italic tracking-widest text-[#d28b3d]/90">
             A Glimpse of Us
           </p>
-          <div className="w-[1px] h-12 sm:h-16 bg-gradient-to-b from-transparent via-[#D4AF37]/50 to-transparent mb-6" />
+          <div className="w-[1px] h-12 sm:h-16 bg-gradient-to-b from-transparent via-[#d28b3d]/50 to-transparent mb-6" />
           <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-light tracking-wide text-white drop-shadow-xl">
             Moments Together
           </h2>
@@ -90,7 +90,7 @@ export const Gallery: React.FC = () => {
               transition={{ duration: 0.8, delay: index * 0.1, ease: [0.25, 0.1, 0.25, 1] }}
             >
               <div 
-                className="relative block overflow-hidden shadow-2xl transition-all duration-[1.5s] ease-[cubic-bezier(0.25,0.1,0.25,1)] group-hover:shadow-[0_40px_80px_-20px_rgba(0,0,0,0.9)] border border-[#D4AF37]/10 group-hover:border-[#D4AF37]/30 bg-black rounded-sm" 
+                className="relative block overflow-hidden shadow-2xl transition-all duration-[1.5s] ease-[cubic-bezier(0.25,0.1,0.25,1)] group-hover:shadow-[0_40px_80px_-20px_rgba(0,0,0,0.9)] border border-[#d28b3d]/10 group-hover:border-[#d28b3d]/30 bg-black rounded-sm" 
               >
                 <div className="relative block w-full overflow-hidden bg-[#111]">
                   <img 

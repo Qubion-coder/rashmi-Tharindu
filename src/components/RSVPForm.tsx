@@ -55,7 +55,7 @@ export const RSVPForm: React.FC = () => {
           cursor: not-allowed;
         }
       `}} />
-      <section className="py-20 sm:py-28 px-6 bg-[#080808] text-[#E8C547]">
+      <section className="py-20 sm:py-28 px-6 bg-[#080808] text-[#d28b3d]">
         <div className="mx-auto max-w-xl text-center">
           <p className="text-[10px] font-medium uppercase tracking-[0.6em] mb-3 text-white/35 font-sans">
             Kindly respond
@@ -89,7 +89,7 @@ export const RSVPForm: React.FC = () => {
           <div>
             {submitted ? (
               <div className="text-center p-6 border border-[#D4AF37]/30 rounded-2xl bg-black/20">
-                <p className="text-lg font-serif text-[#E8C547] mb-2">Thank you!</p>
+                <p className="text-lg font-serif text-[#d28b3d] mb-2">Thank you!</p>
                 <p className="text-sm font-sans text-white/70">Your response has been recorded.</p>
               </div>
             ) : (
@@ -109,7 +109,7 @@ export const RSVPForm: React.FC = () => {
                     onClick={() => handleRSVP('Accepts')}
                     disabled={isSubmitting}
                     className="px-10 py-4 font-sans text-xs uppercase tracking-[0.3em] transition-all duration-300 hover:opacity-75 active:scale-[0.98] cursor-pointer rounded-full w-full max-w-xs font-semibold" 
-                    style={{ background: "linear-gradient(135deg, #E8C547 0%, #D4AF37 100%)", color: "#080808", border: "1px solid #E8C547" }}
+                    style={{ background: "linear-gradient(135deg, #d28b3d 0%, #D4AF37 100%)", color: "#080808", border: "1px solid #d28b3d" }}
                   >
                     {isSubmitting ? 'Submitting...' : 'Joyfully Accepts'}
                   </button>

@@ -18,9 +18,9 @@ export const AddressesSection: React.FC = () => {
     },
     poruwa: {
       title: 'Ceremony & Reception',
-      name: 'Rimakvin River Edge Resort & Banquet',
-      address: 'Ambalangoda, Sri Lanka',
-      note: 'Ceremony begins at 09:30 AM',
+      name: 'Seetha Banquet Halls',
+      address: 'Pilimathalawa, Sri Lanka',
+      note: 'Ceremony begins at 10:20 AM',
     },
     homecoming: {
       title: 'Post-Wedding Party',

@@ -3,9 +3,9 @@ import { motion } from 'motion/react';
 import { MapPin, Navigation, Compass, Map } from 'lucide-react';
 
 export const Location: React.FC = () => {
-  const venueAddress = "Rimakvin River Edge Resort & Banquet";
-  const mapUrl = `https://maps.google.com/maps?q=Rimakvin%20River%20Edge%20Resort%20%26%20Banquet&t=&z=15&ie=UTF8&iwloc=&output=embed`;
-  const liveLocationUrl = "https://maps.app.goo.gl/arrtWn3Gez3KGyFe6";
+  const venueAddress = "Seetha Banquet Halls Pilimathalawa";
+  const mapUrl = `https://maps.google.com/maps?q=Seetha%20Uthsawa%20Shalawa%2C%20Pilimathalawa&t=&z=15&ie=UTF8&iwloc=&output=embed`;
+  const liveLocationUrl = "https://maps.app.goo.gl/vFrsLct5QXRgxPov9";
 
   return (
     <section className="relative w-full overflow-hidden">
@@ -32,7 +32,7 @@ export const Location: React.FC = () => {
           transition={{ duration: 1.2, ease: "easeOut" }}
           className="w-full lg:w-[45%] z-20"
         >
-          <div className="bg-[#1D3557]/90 backdrop-blur-2xl p-10 sm:p-14 lg:p-16 rounded-[2.5rem] shadow-[0_30px_60px_rgba(0,0,0,0.3)] border border-brand-primary-light/30 lg:translate-x-12 relative overflow-hidden group">
+          <div className="bg-[#225740]/90 backdrop-blur-2xl p-10 sm:p-14 lg:p-16 rounded-[2.5rem] shadow-[0_30px_60px_rgba(0,0,0,0.3)] border border-brand-primary-light/30 lg:translate-x-12 relative overflow-hidden group">
 
             {/* Elegant top border gradient */}
             <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-brand-primary-muted via-brand-primary to-brand-primary-deep" />
@@ -40,8 +40,8 @@ export const Location: React.FC = () => {
             <div className="mb-10 relative z-10">
               <div className="w-full h-40 sm:h-48 mb-8 rounded-2xl overflow-hidden border-2 border-brand-primary-light/20 shadow-lg">
                 <img 
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFaylSWJDWUgESLrQxHUIfvUKuYOKVvUcG1cDSXrWCGbjcEGKJN5Bv_h0X&s=10" 
-                  alt="Rimakvin River Edge Resort & Banquet" 
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDJS9gg_02RrfTyKLhcep7EggukcY5ZHPngmk7izkoM79sg2Dc-byj-po&s=10" 
+                  alt="Seetha Banquet Halls Pilimathalawa" 
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -58,13 +58,13 @@ export const Location: React.FC = () => {
               </h2>
 
               <div className="flex items-start gap-5 mt-10">
-                <div className="w-12 h-12 bg-blue-900/40 rounded-full border border-brand-primary-light/40 shadow-inner flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-500">
+                <div className="w-12 h-12 bg-green-900/40 rounded-full border border-brand-primary-light/40 shadow-inner flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-500">
                   <MapPin className="text-brand-primary-light w-5 h-5" />
                 </div>
                 <div>
-                  <p className="text-xl sm:text-2xl font-serif text-white mb-2 leading-tight">Rimakvin River Edge<br />Resort & Banquet</p>
+                  <p className="text-xl sm:text-2xl font-serif text-white mb-2 leading-tight">සීතා උත්සව ශාලාව පිළිමතලාව<br /><span className="text-sm font-sans tracking-widest text-green-100/90 mt-1 block uppercase">Seetha Banquet Halls Pilimathalawa</span></p>
 
-                  <p className="text-blue-100/80 italic font-serif text-lg leading-relaxed max-w-sm mb-10 pl-4 border-l-[1.5px] border-brand-primary-light/40">
+                  <p className="text-green-100/80 italic font-serif text-lg leading-relaxed max-w-sm mb-10 pl-4 border-l-[1.5px] border-brand-primary-light/40">
                     "අපගේ නව ජීවිතය අරඹන සොඳුරු ස්ථානය"
                   </p>
 
@@ -72,7 +72,7 @@ export const Location: React.FC = () => {
                     href={liveLocationUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-3 bg-white text-blue-900 px-8 py-4 rounded-full font-sans tracking-[0.2em] text-xs uppercase hover:bg-blue-50 hover:shadow-[0_10px_20px_rgba(0,0,0,0.4)] transition-all duration-300 active:scale-95 group/btn"
+                    className="inline-flex items-center gap-3 bg-white text-[#225740] px-8 py-4 rounded-full font-sans tracking-[0.2em] text-xs uppercase hover:bg-green-50 hover:shadow-[0_10px_20px_rgba(0,0,0,0.4)] transition-all duration-300 active:scale-95 group/btn"
                   >
                     <Navigation className="w-4 h-4 text-brand-primary group-hover/btn:rotate-45 transition-transform duration-300" />
                     View Location

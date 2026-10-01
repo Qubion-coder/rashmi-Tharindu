@@ -44,41 +44,41 @@ export const HeroContent: React.FC = () => {
           initial="hidden"
           animate="visible"
         >
-          <motion.p variants={itemVariants} className="text-[#2C1810] font-serif tracking-[0.2em] uppercase text-[15px] sm:text-[18px] mb-3 font-semibold" style={{ textShadow: "0 0 10px rgba(255,255,255,0.8)" }}>
+          <motion.p variants={itemVariants} className="text-[#d28b3d] font-serif tracking-[0.2em] uppercase text-[15px] sm:text-[18px] mb-3 font-semibold" style={{ textShadow: "0 0 10px rgba(255,255,255,0.9), 1px 1px 2px rgba(0,0,0,0.1)" }}>
             ශ්‍රී සුභ මංගලම්
           </motion.p>
           
           <motion.div variants={itemVariants} className="flex items-center gap-2 w-32 mx-auto">
-            <div className="h-[2px] flex-1 bg-[#2C1810]/70"></div>
-            <div className="w-1.5 h-1.5 rotate-45 bg-[#2C1810]"></div>
-            <div className="h-[2px] flex-1 bg-[#2C1810]/70"></div>
+            <div className="h-[2px] flex-1 bg-[#d28b3d]/70"></div>
+            <div className="w-1.5 h-1.5 rotate-45 bg-[#d28b3d]"></div>
+            <div className="h-[2px] flex-1 bg-[#d28b3d]/70"></div>
           </motion.div>
         </motion.div>
 
         {/* Middle Content - Names */}
         <motion.div 
-          className="flex flex-col items-center text-center w-full max-w-3xl mx-auto mt-4 sm:mt-8"
+          className="flex flex-col items-center text-center w-full max-w-3xl mx-auto mt-2 sm:mt-8"
           variants={containerVariants}
           initial="hidden"
           animate="visible"
         >
           <motion.h1 variants={itemVariants}
-            className="text-[#1a1005] font-display font-medium leading-none mb-2"
-            style={{ fontSize: "clamp(3.5rem, 12vw, 6rem)", textShadow: "0 0 20px rgba(255,255,255,0.7), 0 0 10px rgba(255,255,255,0.7)" }}
+            className="text-[#d28b3d] font-display font-medium leading-none mb-1 sm:mb-2"
+            style={{ fontSize: "clamp(3rem, 10vw, 6rem)", textShadow: "0 0 20px rgba(255,255,255,0.9), 0 0 10px rgba(255,255,255,0.8), 2px 2px 4px rgba(0,0,0,0.1)" }}
           >
             රශ්මි
           </motion.h1>
           
           <motion.span variants={itemVariants}
-            className="text-[#2C1810] font-display text-3xl sm:text-4xl my-2"
-            style={{ textShadow: "0 0 15px rgba(255,255,255,0.7)" }}
+            className="text-[#d28b3d] font-display text-2xl sm:text-4xl my-1 sm:my-2"
+            style={{ textShadow: "0 0 15px rgba(255,255,255,0.9)" }}
           >
             හා
           </motion.span>
           
           <motion.h1 variants={itemVariants}
-            className="text-[#1a1005] font-display font-medium leading-none mt-2"
-            style={{ fontSize: "clamp(3.5rem, 12vw, 6rem)", textShadow: "0 0 20px rgba(255,255,255,0.7), 0 0 10px rgba(255,255,255,0.7)" }}
+            className="text-[#d28b3d] font-display font-medium leading-none mt-1 sm:mt-2"
+            style={{ fontSize: "clamp(3rem, 10vw, 6rem)", textShadow: "0 0 20px rgba(255,255,255,0.9), 0 0 10px rgba(255,255,255,0.8), 2px 2px 4px rgba(0,0,0,0.1)" }}
           >
             තරිඳු
           </motion.h1>
@@ -86,12 +86,12 @@ export const HeroContent: React.FC = () => {
 
         {/* Bottom Content - Date (Moved higher up) */}
         <motion.div 
-          className="flex flex-col items-center text-center mt-4 sm:mt-10"
+          className="flex flex-col items-center text-center mt-2 sm:mt-10"
           variants={containerVariants}
           initial="hidden"
           animate="visible"
         >
-          <motion.div variants={itemVariants} className="text-[#1a1005] font-serif text-[15px] sm:text-xl tracking-[0.2em] font-bold border-t-2 border-[#2C1810]/50 pt-4 px-8" style={{ textShadow: "0 0 10px rgba(255,255,255,0.8)" }}>
+          <motion.div variants={itemVariants} className="text-[#225740] font-serif text-[15px] sm:text-xl tracking-[0.2em] font-bold border-t-2 border-[#225740]/50 pt-4 px-8" style={{ textShadow: "0 0 10px rgba(255,255,255,0.9)" }}>
             2026 නොවැම්බර් 19 බ්‍රහස්පතින්දා
           </motion.div>
         </motion.div>
@@ -109,8 +109,8 @@ export const HeroContent: React.FC = () => {
             transition={{ repeat: Infinity, duration: 2, ease: "easeInOut" }}
             className="flex flex-col items-center gap-2"
           >
-            <span className="text-[#2C1810] text-[10px] uppercase tracking-[0.3em] font-medium" style={{ textShadow: "0 0 10px rgba(255,255,255,0.8)" }}>Scroll</span>
-            <ChevronDown className="w-6 h-6 text-[#2C1810]" strokeWidth={1.5} />
+            <span className="text-[#225740] text-[10px] uppercase tracking-[0.3em] font-medium" style={{ textShadow: "0 0 10px rgba(255,255,255,0.8)" }}>Scroll</span>
+            <ChevronDown className="w-6 h-6 text-[#225740]" strokeWidth={1.5} />
           </motion.div>
         </motion.div>
 

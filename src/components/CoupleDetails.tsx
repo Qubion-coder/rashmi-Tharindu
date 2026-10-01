@@ -21,7 +21,7 @@ export const CoupleDetails: React.FC = () => {
           transition={{ duration: 1 }}
           className="absolute top-[6%] sm:top-[10%] left-0 w-full text-center flex flex-col items-center"
         >
-          <span className="text-[#c5a059] uppercase tracking-[0.3em] text-[4vw] sm:text-[20px] md:text-[24px] font-semibold font-sans mb-1 sm:mb-2 drop-shadow-sm">
+          <span className="text-[#d28b3d] uppercase tracking-[0.3em] text-[4vw] sm:text-[20px] md:text-[24px] font-semibold font-sans mb-1 sm:mb-2 drop-shadow-sm">
             The Protagonists
           </span>
         </motion.div>
@@ -34,14 +34,14 @@ export const CoupleDetails: React.FC = () => {
           transition={{ duration: 1, delay: 0.2 }}
           className="absolute top-[20%] sm:top-[32%] left-[2%] sm:left-[8%] w-[42%] sm:w-[40%] text-center flex flex-col items-center"
         >
-          <span className="text-[#c5a059] uppercase tracking-[0.2em] text-[3vw] sm:text-[16px] md:text-[18px] font-bold font-sans mb-2 sm:mb-4 drop-shadow-sm">
+          <span className="text-[#d28b3d] uppercase tracking-[0.2em] text-[3vw] sm:text-[16px] md:text-[18px] font-bold font-sans mb-2 sm:mb-4 drop-shadow-sm">
             The Groom
           </span>
-          <h3 className="text-[#13203b] font-serif text-[5vw] sm:text-[2.5rem] md:text-[3rem] tracking-widest mb-3 sm:mb-6 uppercase drop-shadow-sm">
+          <h3 className="text-[#d28b3d] font-serif text-[5vw] sm:text-[2.5rem] md:text-[3rem] tracking-widest mb-3 sm:mb-6 uppercase drop-shadow-sm">
             තරිඳු
           </h3>
-          <div className="text-[#13203b] font-serif text-[2.5vw] sm:text-[18px] md:text-[22px] space-y-1 sm:space-y-2 drop-shadow-sm">
-            <p>රාජපක්ෂ මහතාගේ සහ එම</p>
+          <div className="text-[#333333] font-serif text-[2.5vw] sm:text-[18px] md:text-[22px] space-y-1 sm:space-y-2 drop-shadow-sm">
+            <p>එස්.ඩි රාජපක්ෂ මහතාගේ සහ එම</p>
             <p>මැතිනියගේ ආදරණීය පුත්,</p>
           </div>
         </motion.div>
@@ -54,13 +54,13 @@ export const CoupleDetails: React.FC = () => {
           transition={{ duration: 1, delay: 0.4 }}
           className="absolute top-[60%] sm:top-[64%] right-[5%] w-[40%] text-center flex flex-col items-center"
         >
-          <span className="text-[#c5a059] uppercase tracking-[0.2em] text-[3vw] sm:text-[16px] md:text-[18px] font-bold font-sans mb-2 sm:mb-4 drop-shadow-sm">
+          <span className="text-[#d28b3d] uppercase tracking-[0.2em] text-[3vw] sm:text-[16px] md:text-[18px] font-bold font-sans mb-2 sm:mb-4 drop-shadow-sm">
             The Bride
           </span>
-          <h3 className="text-[#13203b] font-serif text-[5vw] sm:text-[2.5rem] md:text-[3rem] tracking-widest mb-3 sm:mb-6 uppercase drop-shadow-sm">
+          <h3 className="text-[#d28b3d] font-serif text-[5vw] sm:text-[2.5rem] md:text-[3rem] tracking-widest mb-3 sm:mb-6 uppercase drop-shadow-sm">
             රශ්මි
           </h3>
-          <div className="text-[#13203b] font-serif text-[2.5vw] sm:text-[18px] md:text-[22px] space-y-1 sm:space-y-2 drop-shadow-sm">
+          <div className="text-[#333333] font-serif text-[2.5vw] sm:text-[18px] md:text-[22px] space-y-1 sm:space-y-2 drop-shadow-sm">
             <p>ආර්.එම්.රත්නායක මහතාගේ සහ</p>
             <p>එම මැතිනියගේ ආදරණීය දියණිය,</p>
           </div>

@@ -79,7 +79,7 @@ export const Envelope: React.FC<EnvelopeProps> = ({ onComplete }) => {
                   <Heart className="w-6 h-6 text-brand-gold-deep" />
                 </div>
 
-                <h2 className="text-3xl sm:text-5xl font-display font-medium text-[#4a5770] tracking-tight leading-[1.1] mb-2 sm:mb-3 drop-shadow-sm">
+                <h2 className="text-3xl sm:text-5xl font-display font-medium text-[#d28b3d] tracking-tight leading-[1.1] mb-2 sm:mb-3 drop-shadow-sm">
                   Rashmi <br />
                   <span className="text-xl sm:text-3xl text-[#cccccc] italic font-light my-1 block">&</span>
                   Tharindu
@@ -87,10 +87,10 @@ export const Envelope: React.FC<EnvelopeProps> = ({ onComplete }) => {
 
                 <div className="w-16 sm:w-24 h-[2px] bg-gradient-to-r from-transparent via-[#cccccc] to-transparent mx-auto my-3 sm:my-5" />
 
-                <p className="text-[8px] sm:text-[11px] font-sans tracking-[0.3em] sm:tracking-[0.5em] uppercase text-[#5c6b8a] mb-2 sm:mb-3 font-bold leading-none">
+                <p className="text-[8px] sm:text-[11px] font-sans tracking-[0.3em] sm:tracking-[0.5em] uppercase text-[#333333] mb-2 sm:mb-3 font-bold leading-none">
                   Request the honor of your presence
                 </p>
-                <p className="text-base sm:text-2xl font-serif text-[#4a5770] tracking-[0.2em] mt-1 drop-shadow-sm leading-none font-semibold">
+                <p className="text-base sm:text-2xl font-serif text-[#d28b3d] tracking-[0.2em] mt-1 drop-shadow-sm leading-none font-semibold">
                   19 • 11 • 2026
                 </p>
               </motion.div>
@@ -199,13 +199,13 @@ export const Envelope: React.FC<EnvelopeProps> = ({ onComplete }) => {
                   <div className="absolute inset-1 rounded-full border-[1.5px] border-dotted border-[#d4af37]/80 pointer-events-none animate-[spin_60s_linear_infinite]" />
 
                   <div className="relative flex flex-col items-center justify-center translate-y-[-2px]">
-                    <span className="text-[#d4af37] font-serif text-3xl sm:text-4xl italic tracking-tighter drop-shadow-[0_2px_4px_rgba(50,0,10,0.9)]">
+                    <span className="text-[#d28b3d] font-serif text-3xl sm:text-4xl italic tracking-tighter drop-shadow-[0_2px_4px_rgba(50,0,10,0.9)]">
                       R
                     </span>
-                    <span className="text-[#d4af37]/70 font-serif text-sm sm:text-base mx-0.5 font-light drop-shadow-[0_2px_4px_rgba(50,0,10,0.9)] my-[-6px]">
+                    <span className="text-[#d28b3d]/70 font-serif text-sm sm:text-base mx-0.5 font-light drop-shadow-[0_2px_4px_rgba(50,0,10,0.9)] my-[-6px]">
                       &
                     </span>
-                    <span className="text-[#d4af37] font-serif text-3xl sm:text-4xl italic tracking-tighter drop-shadow-[0_2px_4px_rgba(50,0,10,0.9)]">
+                    <span className="text-[#d28b3d] font-serif text-3xl sm:text-4xl italic tracking-tighter drop-shadow-[0_2px_4px_rgba(50,0,10,0.9)]">
                       T
                     </span>
                   </div>
@@ -231,7 +231,7 @@ export const Envelope: React.FC<EnvelopeProps> = ({ onComplete }) => {
                   <p className="text-[#fffdf9] font-serif italic text-2xl sm:text-4xl font-light tracking-wide text-shadow-xl drop-shadow-[0_8px_16px_rgba(10,20,50,0.8)]">
                     Royal Sri Lankan Invitation
                   </p>
-                  <p className="text-[#d4af37] font-sans text-[10px] sm:text-xs tracking-[0.5em] uppercase font-bold drop-shadow-md">
+                  <p className="text-[#d28b3d] font-sans text-[10px] sm:text-xs tracking-[0.5em] uppercase font-bold drop-shadow-md">
                     Break the seal to reveal
                   </p>
                 </div>

@@ -47,8 +47,8 @@ export const SacredUnion: React.FC = () => {
                 <CalendarDays className="w-4 h-4 sm:w-[28px] sm:h-[28px] text-[#3b2a1a]" />
               </div>
               <div className="flex flex-col flex-1">
-                <span className="text-[#1a1005] uppercase tracking-[0.1em] text-xs sm:text-[18px] md:text-[20px] font-semibold font-serif leading-tight mb-0.5">Thursday, November 26</span>
-                <span className="text-[#3b2a1a] uppercase tracking-[0.05em] text-[9px] sm:text-[15px] md:text-[16px] font-sans">The Year Two Thousand Twenty Six</span>
+                <span className="text-[#333333] uppercase tracking-[0.1em] text-xs sm:text-[18px] md:text-[20px] font-semibold font-serif leading-tight mb-0.5">Thursday, November 19</span>
+                <span className="text-[#d28b3d] uppercase tracking-[0.05em] text-[9px] sm:text-[15px] md:text-[16px] font-sans">The Year Two Thousand Twenty Six</span>
               </div>
             </div>
 
@@ -57,9 +57,9 @@ export const SacredUnion: React.FC = () => {
                 <Clock className="w-4 h-4 sm:w-[28px] sm:h-[28px] text-[#3b2a1a]" />
               </div>
               <div className="flex flex-col flex-1">
-                <span className="text-[#1a1005] uppercase tracking-[0.1em] text-xs sm:text-[18px] md:text-[20px] font-semibold font-serif leading-tight mb-0.5 sm:mb-1">09:30 AM - 04:00 PM</span>
-                <span className="text-[#3b2a1a] tracking-[0.05em] text-[10px] sm:text-[15px] md:text-[16px] font-sans leading-snug">
-                  The Poruwa Ceremony will be held at 10:07 AM
+                <span className="text-[#333333] uppercase tracking-[0.1em] text-xs sm:text-[18px] md:text-[20px] font-semibold font-serif leading-tight mb-0.5 sm:mb-1">10:00 AM - 04:00 PM</span>
+                <span className="text-[#d28b3d] tracking-[0.05em] text-[10px] sm:text-[15px] md:text-[16px] font-sans leading-snug">
+                  The Poruwa Ceremony will be held at 10:20 AM
                 </span>
               </div>
             </div>
@@ -69,8 +69,8 @@ export const SacredUnion: React.FC = () => {
                 <MapPin className="w-4 h-4 sm:w-[28px] sm:h-[28px] text-[#3b2a1a]" />
               </div>
               <div className="flex flex-col flex-1">
-                <span className="text-[#1a1005] uppercase tracking-[0.1em] text-xs sm:text-[18px] md:text-[20px] font-semibold font-serif leading-tight mb-0.5 sm:mb-1">Rimakvin River Edge Resort & Banquet</span>
-                <span className="text-[#3b2a1a] uppercase tracking-[0.05em] text-[9px] sm:text-[15px] md:text-[16px] font-sans leading-tight">The Grand Ballroom, Ambalangoda</span>
+                <span className="text-[#333333] uppercase tracking-[0.1em] text-xs sm:text-[18px] md:text-[20px] font-semibold font-serif leading-tight mb-0.5 sm:mb-1">Seetha Banquet Halls</span>
+                <span className="text-[#d28b3d] uppercase tracking-[0.05em] text-[9px] sm:text-[15px] md:text-[16px] font-sans leading-tight">Pilimathalawa</span>
               </div>
             </div>
           </div>
