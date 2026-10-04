@@ -2,8 +2,8 @@ type SheetName = 'rsvp';
 
 type SheetPayload = Record<string, string | number>;
 
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbySHu6JxnKOTTTw93lWXxMsucrm1GJCBoxEu2mDdMEz0YXFXnISuF6ouoYK8W3nba2i/exec";
-
+// Replace this with your new Google Apps Script Web App URL
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxFqhY2s5nFWgxzU-CxLd5I1x2MMgCFw1lI_9EzgiUkEXTPGU_Dw-bX6t0nQDvnKsQNhA/exec";
 export async function submitToGoogleSheet(sheet: SheetName, payload: SheetPayload): Promise<void> {
   if (!GOOGLE_SCRIPT_URL) {
     throw new Error('Missing GOOGLE_SCRIPT_URL');
