@@ -1,7 +1,7 @@
 {
   "buildCommand": "rm -rf node_modules && npm install && vite build",
   "env": {
-    "VITE_SITE_URL": "https://dinelka-prabashi-wedding.vercel.app"
+    "VITE_SITE_URL": "https://rashmi-tharindu-weddinginvitation.vercel.app"
   },
   "rewrites": [
     {

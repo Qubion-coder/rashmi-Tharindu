@@ -10,7 +10,7 @@ const SHARE_IMAGE_SOURCE = path.join(
   'public/my/pexels-framesbygaurav-37380245.jpg',
 );
 const SHARE_IMAGE_OUTPUT = path.join(__dirname, 'public/og-image.jpg');
-const DEFAULT_SITE_URL = 'https://dinelka-prabashi-wedding.vercel.app';
+const DEFAULT_SITE_URL = 'https://rashmi-tharindu-weddinginvitation.vercel.app';
 
 function getSiteUrl(env: Record<string, string>): string {
   const configured = env.VITE_SITE_URL?.trim();
