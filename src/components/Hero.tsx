@@ -48,9 +48,9 @@ export const Hero: React.FC = () => {
             Save the Date
           </motion.span>
           <h1 className="text-white text-4xl sm:text-7xl font-display tracking-widest drop-shadow-[0_10px_30px_rgba(0,0,0,1)] mb-4">
-            <span className="bg-clip-text text-transparent bg-gradient-to-b from-white via-white to-blue-100">DINELKA</span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-b from-white via-white to-blue-100">THARINDU</span>
             <span className="italic font-light text-brand-primary-light mx-4 sm:mx-6 drop-shadow-[0_0_15px_rgba(70,130,180,0.5)]">&</span>
-            <span className="bg-clip-text text-transparent bg-gradient-to-b from-white via-white to-blue-100">PRABASHI</span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-b from-white via-white to-blue-100">RASHMI</span>
           </h1>
           <motion.div 
             className="w-24 h-[1.5px] bg-gradient-to-r from-transparent via-brand-primary-light to-transparent mx-auto mt-4 mb-8 shadow-[0_0_20px_rgba(70,130,180,0.8)]"

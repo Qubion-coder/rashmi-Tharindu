@@ -37,12 +37,11 @@ export const CoupleDetails: React.FC = () => {
           <span className="text-[#d28b3d] uppercase tracking-[0.2em] text-[3vw] sm:text-[16px] md:text-[18px] font-bold font-sans mb-2 sm:mb-4 drop-shadow-sm">
             The Groom
           </span>
-          <h3 className="text-[#d28b3d] font-serif text-[5vw] sm:text-[2.5rem] md:text-[3rem] tracking-widest mb-3 sm:mb-6 uppercase drop-shadow-sm">
-            තරිඳු
+          <h3 className="text-[#d28b3d] font-serif text-[5vw] sm:text-[2.5rem] md:text-[3rem] tracking-widest mb-3 sm:mb-6 uppercase drop-shadow-sm flex flex-col items-center">
+            <span>Tharindu</span>
           </h3>
           <div className="text-[#333333] font-serif text-[2.5vw] sm:text-[18px] md:text-[22px] space-y-1 sm:space-y-2 drop-shadow-sm">
-            <p>එස්.ඩි රාජපක්ෂ මහතාගේ සහ එම</p>
-            <p>මැතිනියගේ ආදරණීය පුත්,</p>
+            <p className="text-[2.5vw] sm:text-[18px] md:text-[20px] font-sans mt-2">Beloved son of Mr. & Mrs. Rajapaksha</p>
           </div>
         </motion.div>
 
@@ -57,12 +56,11 @@ export const CoupleDetails: React.FC = () => {
           <span className="text-[#d28b3d] uppercase tracking-[0.2em] text-[3vw] sm:text-[16px] md:text-[18px] font-bold font-sans mb-2 sm:mb-4 drop-shadow-sm">
             The Bride
           </span>
-          <h3 className="text-[#d28b3d] font-serif text-[5vw] sm:text-[2.5rem] md:text-[3rem] tracking-widest mb-3 sm:mb-6 uppercase drop-shadow-sm">
-            රශ්මි
+          <h3 className="text-[#d28b3d] font-serif text-[5vw] sm:text-[2.5rem] md:text-[3rem] tracking-widest mb-3 sm:mb-6 uppercase drop-shadow-sm flex flex-col items-center">
+            <span>Rashmi</span>
           </h3>
           <div className="text-[#333333] font-serif text-[2.5vw] sm:text-[18px] md:text-[22px] space-y-1 sm:space-y-2 drop-shadow-sm">
-            <p>ආර්.එම්.රත්නායක මහතාගේ සහ</p>
-            <p>එම මැතිනියගේ ආදරණීය දියණිය,</p>
+            <p className="text-[2.5vw] sm:text-[18px] md:text-[20px] font-sans mt-2">Beloved daughter of Mr. & Mrs. Rathnayake</p>
           </div>
         </motion.div>
       </div>

@@ -45,7 +45,7 @@ export const HeroContent: React.FC = () => {
           animate="visible"
         >
           <motion.p variants={itemVariants} className="text-[#d28b3d] font-serif tracking-[0.2em] uppercase text-[15px] sm:text-[18px] mb-3 font-semibold" style={{ textShadow: "0 0 10px rgba(255,255,255,0.9), 1px 1px 2px rgba(0,0,0,0.1)" }}>
-            ශ්‍රී සුභ මංගලම්
+            SAVE THE DATE
           </motion.p>
           
           <motion.div variants={itemVariants} className="flex items-center gap-2 w-32 mx-auto">
@@ -66,21 +66,21 @@ export const HeroContent: React.FC = () => {
             className="text-[#d28b3d] font-display font-medium leading-none mb-1 sm:mb-2"
             style={{ fontSize: "clamp(3rem, 10vw, 6rem)", textShadow: "0 0 20px rgba(255,255,255,0.9), 0 0 10px rgba(255,255,255,0.8), 2px 2px 4px rgba(0,0,0,0.1)" }}
           >
-            රශ්මි
+            RASHMI
           </motion.h1>
           
           <motion.span variants={itemVariants}
             className="text-[#d28b3d] font-display text-2xl sm:text-4xl my-1 sm:my-2"
             style={{ textShadow: "0 0 15px rgba(255,255,255,0.9)" }}
           >
-            හා
+            AND
           </motion.span>
           
           <motion.h1 variants={itemVariants}
             className="text-[#d28b3d] font-display font-medium leading-none mt-1 sm:mt-2"
             style={{ fontSize: "clamp(3rem, 10vw, 6rem)", textShadow: "0 0 20px rgba(255,255,255,0.9), 0 0 10px rgba(255,255,255,0.8), 2px 2px 4px rgba(0,0,0,0.1)" }}
           >
-            තරිඳු
+            THARINDU
           </motion.h1>
         </motion.div>
 
@@ -91,8 +91,8 @@ export const HeroContent: React.FC = () => {
           initial="hidden"
           animate="visible"
         >
-          <motion.div variants={itemVariants} className="text-[#225740] font-serif text-[15px] sm:text-xl tracking-[0.2em] font-bold border-t-2 border-[#225740]/50 pt-4 px-8" style={{ textShadow: "0 0 10px rgba(255,255,255,0.9)" }}>
-            2026 නොවැම්බර් 19 බ්‍රහස්පතින්දා
+          <motion.div variants={itemVariants} className="text-[#225740] font-serif whitespace-nowrap text-[12px] sm:text-xl tracking-[0.1em] sm:tracking-[0.2em] font-bold border-t-2 border-[#225740]/50 pt-4 px-4 sm:px-8" style={{ textShadow: "0 0 10px rgba(255,255,255,0.9)" }}>
+            THURSDAY, NOVEMBER 19, 2026
           </motion.div>
         </motion.div>
 

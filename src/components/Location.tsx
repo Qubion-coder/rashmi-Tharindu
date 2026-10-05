@@ -1,126 +1,119 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { MapPin, Navigation, Compass, Map } from 'lucide-react';
+import { Navigation, MapPin } from 'lucide-react';
 
 export const Location: React.FC = () => {
-  const venueAddress = "Seetha Banquet Halls Pilimathalawa";
   const mapUrl = `https://maps.google.com/maps?q=Seetha%20Uthsawa%20Shalawa%2C%20Pilimathalawa&t=&z=15&ie=UTF8&iwloc=&output=embed`;
   const liveLocationUrl = "https://maps.app.goo.gl/vFrsLct5QXRgxPov9";
 
   return (
-    <section className="relative w-full overflow-hidden">
+    <section className="relative w-full overflow-hidden py-20 lg:py-32">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
           src="/ChatGPT Image Aug 11, 2026, 01_19_32 AM.webp" 
           alt="Location Background"
-          className="w-full h-full object-cover object-center opacity-100" 
+          className="w-full h-full object-cover object-center" 
         />
+        {/* Light elegant overlay to ensure text remains perfectly readable */}
+        <div className="absolute inset-0 bg-[#fdfaf5]/40 backdrop-blur-[2px]" />
       </div>
 
-      <div className="max-w-[85rem] mx-auto px-6 relative z-10 py-12 lg:py-24">
-        {/* Decorative Glows */}
-        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-radial from-brand-primary/20 to-transparent blur-3xl pointer-events-none -z-10" />
-
-      <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-0 mt-10">
-
-        {/* Left Interactive Card */}
+      <div className="max-w-[75rem] mx-auto px-6 relative z-10 flex flex-col items-center">
+        
+        {/* Elegant Section Header */}
         <motion.div
-          initial={{ opacity: 0, x: -40 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 1.2, ease: "easeOut" }}
-          className="w-full lg:w-[45%] z-20"
+          transition={{ duration: 1 }}
+          className="flex flex-col items-center text-center mb-12 sm:mb-16"
         >
-          <div className="bg-[#225740]/90 backdrop-blur-2xl p-10 sm:p-14 lg:p-16 rounded-[2.5rem] shadow-[0_30px_60px_rgba(0,0,0,0.3)] border border-brand-primary-light/30 lg:translate-x-12 relative overflow-hidden group">
-
-            {/* Elegant top border gradient */}
-            <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-brand-primary-muted via-brand-primary to-brand-primary-deep" />
-
-            <div className="mb-10 relative z-10">
-              <div className="w-full h-40 sm:h-48 mb-8 rounded-2xl overflow-hidden border-2 border-brand-primary-light/20 shadow-lg">
-                <img 
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDJS9gg_02RrfTyKLhcep7EggukcY5ZHPngmk7izkoM79sg2Dc-byj-po&s=10" 
-                  alt="Seetha Banquet Halls Pilimathalawa" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="inline-flex items-center gap-4 mb-6">
-                <span className="text-brand-primary-light uppercase tracking-[0.5em] text-[10px] sm:text-[11px] font-bold drop-shadow-sm">
-                  The Venue
-                </span>
-                <div className="w-16 h-[1px] bg-gradient-to-r from-brand-primary-light/60 to-transparent" />
-              </div>
-
-              <h2 className="text-5xl sm:text-6xl font-display text-white mb-6 leading-tight drop-shadow-sm">
-                Where We <br />
-                <span className="italic font-light text-brand-primary-light">Celebrate</span>
-              </h2>
-
-              <div className="flex items-start gap-5 mt-10">
-                <div className="w-12 h-12 bg-green-900/40 rounded-full border border-brand-primary-light/40 shadow-inner flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform duration-500">
-                  <MapPin className="text-brand-primary-light w-5 h-5" />
-                </div>
-                <div>
-                  <p className="text-xl sm:text-2xl font-serif text-white mb-2 leading-tight">සීතා උත්සව ශාලාව පිළිමතලාව<br /><span className="text-sm font-sans tracking-widest text-green-100/90 mt-1 block uppercase">Seetha Banquet Halls Pilimathalawa</span></p>
-
-                  <p className="text-green-100/80 italic font-serif text-lg leading-relaxed max-w-sm mb-10 pl-4 border-l-[1.5px] border-brand-primary-light/40">
-                    "අපගේ නව ජීවිතය අරඹන සොඳුරු ස්ථානය"
-                  </p>
-
-                  <a
-                    href={liveLocationUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-3 bg-white text-[#225740] px-8 py-4 rounded-full font-sans tracking-[0.2em] text-xs uppercase hover:bg-green-50 hover:shadow-[0_10px_20px_rgba(0,0,0,0.4)] transition-all duration-300 active:scale-95 group/btn"
-                  >
-                    <Navigation className="w-4 h-4 text-brand-primary group-hover/btn:rotate-45 transition-transform duration-300" />
-                    View Location
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            {/* Faint background compass icon */}
-            <Compass className="absolute -bottom-16 -right-16 w-64 h-64 text-brand-gold/5 rotate-12 group-hover:rotate-45 transition-transform duration-[3s]" />
+          <div className="flex items-center gap-3 mb-4 sm:mb-6">
+            <div className="w-12 sm:w-20 h-[1px] bg-[#d28b3d]/60" />
+            <span className="text-[#d28b3d] uppercase tracking-[0.3em] text-xs sm:text-sm font-semibold font-sans drop-shadow-sm">
+              The Venue
+            </span>
+            <div className="w-12 sm:w-20 h-[1px] bg-[#d28b3d]/60" />
           </div>
+          <h2 className="text-[#3b2a1a] font-serif text-4xl sm:text-5xl lg:text-[4rem] tracking-tight leading-none drop-shadow-sm mb-3">
+            Seetha Banquet Halls
+          </h2>
+          <p className="text-[#1a1005] font-serif text-lg sm:text-2xl tracking-widest text-[#3b2a1a]/80">
+            Pilimathalawa
+          </p>
         </motion.div>
 
-        {/* Right Stunning Map Frame */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 1.2, delay: 0.2, ease: "easeOut" }}
-          className="w-full lg:w-[65%] h-[500px] sm:h-[600px] lg:h-[700px] relative z-10"
-        >
-          <div className="absolute -inset-4 sm:-inset-6 border-[2px] border-brand-gold/30 rounded-[3rem] -z-10 translate-x-2 sm:translate-x-4 translate-y-2 sm:translate-y-4" />
+        <div className="w-full flex flex-col lg:flex-row gap-8 lg:gap-12 items-center justify-center">
+          
+          {/* Location Image */}
+          <motion.div
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1.2, ease: "easeOut" }}
+            className="w-full lg:w-1/2 aspect-[4/3] sm:aspect-[16/9] lg:aspect-[4/3] rounded-[2rem] sm:rounded-[3rem] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.1)] border-4 sm:border-8 border-white bg-white"
+          >
+            <img 
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDJS9gg_02RrfTyKLhcep7EggukcY5ZHPngmk7izkoM79sg2Dc-byj-po&s=10" 
+              alt="Seetha Banquet Halls" 
+              className="w-full h-full object-cover"
+            />
+          </motion.div>
 
-          <div className="w-full h-full rounded-[2.5rem] lg:rounded-[3rem] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.15)] border-[8px] sm:border-[12px] border-white relative group/map">
-            {/* Map Placeholder Masking for premium feel */}
-            <div className="absolute inset-0 bg-brand-gold/10 mix-blend-multiply pointer-events-none z-20 group-hover/map:opacity-0 transition-opacity duration-1000" />
-
+          {/* Stunning Map Container */}
+          <motion.div
+            initial={{ opacity: 0, x: 30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1.2, delay: 0.2, ease: "easeOut" }}
+            className="w-full lg:w-1/2 aspect-[4/3] sm:aspect-[16/9] lg:aspect-[4/3] relative group rounded-[2rem] sm:rounded-[3rem] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.1)] border-4 sm:border-8 border-white bg-white"
+          >
+            {/* Subtle overlay to blend map perfectly */}
+            <div className="absolute inset-0 bg-[#d28b3d]/10 mix-blend-multiply pointer-events-none z-10 transition-opacity duration-700 group-hover:opacity-0" />
+            
             <iframe
-              title="Marino Beach Location"
+              title="Seetha Banquet Halls Location"
               src={mapUrl}
               width="100%"
               height="100%"
-              style={{ border: 0, filter: 'contrast(1.1) saturate(1.2)' }}
+              style={{ border: 0 }}
               allowFullScreen={true}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              className="absolute inset-0 w-full h-full object-cover grayscale-[30%] group-hover/map:grayscale-0 transition-all duration-1000 ease-in-out"
+              className="absolute inset-0 w-full h-full object-cover filter contrast-[1.05] saturate-[1.1] opacity-90 group-hover:opacity-100 transition-all duration-700"
             />
 
-            {/* Decorative Location Pin Overlay */}
-            <div className="absolute top-6 right-6 bg-white/90 backdrop-blur-md px-4 py-2 rounded-full border border-brand-gold/30 shadow-lg flex items-center gap-2 pointer-events-none z-30">
-              <Map className="w-4 h-4 text-brand-gold-deep animate-pulse" />
-              <span className="text-[9px] uppercase tracking-widest font-bold text-stone-600">Live Map</span>
+            {/* Floating Location Pill */}
+            <div className="absolute top-4 left-4 sm:top-6 sm:left-6 z-20 bg-white/90 backdrop-blur-md px-4 sm:px-6 py-2 sm:py-3 rounded-full shadow-lg border border-[#3b2a1a]/10 flex items-center gap-2 sm:gap-3">
+              <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-[#d28b3d]" />
+              <span className="text-[#3b2a1a] text-[10px] sm:text-xs font-semibold uppercase tracking-widest">
+                Live Map
+              </span>
             </div>
-          </div>
+          </motion.div>
+
+        </div>
+
+        {/* Elegant Action Button */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1, delay: 0.4 }}
+          className="mt-12 sm:mt-16"
+        >
+          <a
+            href={liveLocationUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-3 sm:gap-4 bg-transparent border border-[#3b2a1a] text-[#3b2a1a] px-8 sm:px-12 py-4 sm:py-5 rounded-full font-sans tracking-[0.2em] text-xs sm:text-sm uppercase hover:bg-[#3b2a1a] hover:text-[#fdfaf5] hover:shadow-xl transition-all duration-500 active:scale-95 group"
+          >
+            <Navigation className="w-4 h-4 sm:w-5 sm:h-5 group-hover:rotate-45 transition-transform duration-500" />
+            View Location
+          </a>
         </motion.div>
 
-      </div>
       </div>
     </section>
   );
