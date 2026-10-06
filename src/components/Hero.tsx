@@ -40,31 +40,31 @@ export const Hero: React.FC = () => {
       >
         <div className="relative inline-block px-8 py-10 sm:px-16 sm:py-16 bg-white/5 backdrop-blur-[4px] rounded-[3rem] border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
           <motion.span 
-            className="text-[10px] sm:text-xs uppercase tracking-[0.8em] text-white font-bold mb-6 block drop-shadow-[0_4px_12px_rgba(0,0,0,1)]"
+            className="text-[10px] sm:text-xs uppercase tracking-[0.8em] text-white font-bold mb-8 block drop-shadow-[0_4px_12px_rgba(0,0,0,1)]"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.5, duration: 1 }}
           >
             Save the Date
           </motion.span>
-          <h1 className="text-white text-4xl sm:text-7xl font-display tracking-widest drop-shadow-[0_10px_30px_rgba(0,0,0,1)] mb-4">
-            <span className="bg-clip-text text-transparent bg-gradient-to-b from-white via-white to-blue-100">THARINDU</span>
-            <span className="italic font-light text-brand-primary-light mx-4 sm:mx-6 drop-shadow-[0_0_15px_rgba(70,130,180,0.5)]">&</span>
-            <span className="bg-clip-text text-transparent bg-gradient-to-b from-white via-white to-blue-100">RASHMI</span>
+          <h1 className="flex flex-col items-center justify-center text-white font-display uppercase tracking-[0.2em] drop-shadow-[0_10px_30px_rgba(0,0,0,1)] mb-6">
+            <span className="text-5xl sm:text-7xl md:text-8xl bg-clip-text text-transparent bg-gradient-to-b from-white via-white to-blue-100 mb-2">Rashmi</span>
+            <span className="text-xs sm:text-sm md:text-base font-sans font-light tracking-[0.6em] text-brand-primary-light my-3 drop-shadow-[0_0_15px_rgba(70,130,180,0.5)]">AND</span>
+            <span className="text-5xl sm:text-7xl md:text-8xl bg-clip-text text-transparent bg-gradient-to-b from-white via-white to-blue-100 mt-2">Tharindu</span>
           </h1>
           <motion.div 
-            className="w-24 h-[1.5px] bg-gradient-to-r from-transparent via-brand-primary-light to-transparent mx-auto mt-4 mb-8 shadow-[0_0_20px_rgba(70,130,180,0.8)]"
+            className="w-24 h-[1.5px] bg-gradient-to-r from-transparent via-brand-primary-light to-transparent mx-auto mt-6 mb-8 shadow-[0_0_20px_rgba(70,130,180,0.8)]"
             initial={{ width: 0 }}
             animate={{ width: 96 }}
             transition={{ delay: 2, duration: 1 }}
           />
           <motion.p
-            className="text-white font-serif italic text-lg sm:text-xl tracking-[0.2em] drop-shadow-[0_8px_16px_rgba(0,0,0,1)]"
+            className="text-white font-sans uppercase text-[10px] sm:text-xs md:text-sm tracking-[0.3em] drop-shadow-[0_8px_16px_rgba(0,0,0,1)]"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 2.2, duration: 1 }}
           >
-            15 . 08 . 2026
+            Thursday, November 19, 2026
           </motion.p>
           <motion.span
             className="text-[9px] sm:text-[10px] uppercase tracking-[0.4em] text-white/90 font-medium mt-10 block drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]"

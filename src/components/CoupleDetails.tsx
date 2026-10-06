@@ -37,7 +37,7 @@ export const CoupleDetails: React.FC = () => {
           <span className="text-[#d28b3d] uppercase tracking-[0.2em] text-[3vw] sm:text-[16px] md:text-[18px] font-bold font-sans mb-2 sm:mb-4 drop-shadow-sm">
             The Groom
           </span>
-          <h3 className="text-[#d28b3d] font-serif text-[5vw] sm:text-[2.5rem] md:text-[3rem] tracking-widest mb-3 sm:mb-6 uppercase drop-shadow-sm flex flex-col items-center">
+          <h3 className="text-[#d28b3d] font-script font-normal text-[10vw] sm:text-[4rem] md:text-[5rem] tracking-normal mb-3 sm:mb-6 drop-shadow-sm flex flex-col items-center">
             <span>Tharindu</span>
           </h3>
           <div className="text-[#333333] font-serif text-[2.5vw] sm:text-[18px] md:text-[22px] space-y-1 sm:space-y-2 drop-shadow-sm">
@@ -56,7 +56,7 @@ export const CoupleDetails: React.FC = () => {
           <span className="text-[#d28b3d] uppercase tracking-[0.2em] text-[3vw] sm:text-[16px] md:text-[18px] font-bold font-sans mb-2 sm:mb-4 drop-shadow-sm">
             The Bride
           </span>
-          <h3 className="text-[#d28b3d] font-serif text-[5vw] sm:text-[2.5rem] md:text-[3rem] tracking-widest mb-3 sm:mb-6 uppercase drop-shadow-sm flex flex-col items-center">
+          <h3 className="text-[#d28b3d] font-script font-normal text-[10vw] sm:text-[4rem] md:text-[5rem] tracking-normal mb-3 sm:mb-6 drop-shadow-sm flex flex-col items-center">
             <span>Rashmi</span>
           </h3>
           <div className="text-[#333333] font-serif text-[2.5vw] sm:text-[18px] md:text-[22px] space-y-1 sm:space-y-2 drop-shadow-sm">

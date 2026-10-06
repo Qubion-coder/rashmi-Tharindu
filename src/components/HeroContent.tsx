@@ -57,36 +57,36 @@ export const HeroContent: React.FC = () => {
 
         {/* Middle Content - Names */}
         <motion.div 
-          className="flex flex-col items-center text-center w-full max-w-3xl mx-auto mt-2 sm:mt-8"
+          className="flex flex-col items-center text-center w-full max-w-3xl mx-auto mt-1 sm:mt-6"
           variants={containerVariants}
           initial="hidden"
           animate="visible"
         >
           <motion.h1 variants={itemVariants}
-            className="text-[#d28b3d] font-display font-medium leading-none mb-1 sm:mb-2"
-            style={{ fontSize: "clamp(3rem, 10vw, 6rem)", textShadow: "0 0 20px rgba(255,255,255,0.9), 0 0 10px rgba(255,255,255,0.8), 2px 2px 4px rgba(0,0,0,0.1)" }}
+            className="text-[#d28b3d] font-script font-normal leading-none mb-1 sm:mb-2"
+            style={{ fontSize: "clamp(3.5rem, 11vw, 6.5rem)", textShadow: "0 0 20px rgba(255,255,255,0.9), 0 0 10px rgba(255,255,255,0.8), 2px 2px 4px rgba(0,0,0,0.1)" }}
           >
-            RASHMI
+            Rashmi
           </motion.h1>
           
           <motion.span variants={itemVariants}
-            className="text-[#d28b3d] font-display text-2xl sm:text-4xl my-1 sm:my-2"
+            className="text-[#d28b3d] font-serif italic font-light text-2xl sm:text-5xl my-1 z-10"
             style={{ textShadow: "0 0 15px rgba(255,255,255,0.9)" }}
           >
-            AND
+            &
           </motion.span>
           
           <motion.h1 variants={itemVariants}
-            className="text-[#d28b3d] font-display font-medium leading-none mt-1 sm:mt-2"
-            style={{ fontSize: "clamp(3rem, 10vw, 6rem)", textShadow: "0 0 20px rgba(255,255,255,0.9), 0 0 10px rgba(255,255,255,0.8), 2px 2px 4px rgba(0,0,0,0.1)" }}
+            className="text-[#d28b3d] font-script font-normal leading-none mt-1 sm:mt-2"
+            style={{ fontSize: "clamp(3.5rem, 11vw, 6.5rem)", textShadow: "0 0 20px rgba(255,255,255,0.9), 0 0 10px rgba(255,255,255,0.8), 2px 2px 4px rgba(0,0,0,0.1)" }}
           >
-            THARINDU
+            Tharindu
           </motion.h1>
         </motion.div>
 
         {/* Bottom Content - Date (Moved higher up) */}
         <motion.div 
-          className="flex flex-col items-center text-center mt-2 sm:mt-10"
+          className="flex flex-col items-center text-center mt-1 sm:mt-8"
           variants={containerVariants}
           initial="hidden"
           animate="visible"
